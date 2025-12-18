@@ -64,7 +64,7 @@ export const games: Game[] = [
     description: "Roll down the endless slope avoiding obstacles at high speed",
     category: "Action",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg98.github.io/slope/",
+    embedUrl: "https://slope-game.github.io/",
     tags: ["3D", "Endless", "Speed"],
     featured: true,
   },
@@ -84,7 +84,7 @@ export const games: Game[] = [
     description: "Slide numbered tiles to combine them and reach 2048",
     category: "Puzzle",
     thumbnail: g2048Img,
-    embedUrl: "https://play2048.co/",
+    embedUrl: "https://hczhcz.github.io/2048/20ez/",
     tags: ["Numbers", "Logic", "Addictive"],
     featured: true,
   },
@@ -94,7 +94,7 @@ export const games: Game[] = [
     description: "Classic arcade game - eat dots and avoid ghosts",
     category: "Arcade",
     thumbnail: pacmanImg,
-    embedUrl: "https://freepacman.org/",
+    embedUrl: "https://www.google.com/logos/2010/pacman10-i.html",
     tags: ["Classic", "Maze", "Retro"],
     featured: true,
   },
@@ -106,7 +106,7 @@ export const games: Game[] = [
     description: "Classic snake game - eat food and grow longer",
     category: "Action",
     thumbnail: snakeImg,
-    embedUrl: "https://playsnake.org/",
+    embedUrl: "https://patorjk.com/games/snake/",
     tags: ["Classic", "Retro", "Endless"],
   },
   {
@@ -124,7 +124,7 @@ export const games: Game[] = [
     description: "Race through a colorful tunnel at high speed",
     category: "Action",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg98.github.io/tunnel-rush/",
+    embedUrl: "https://sites.google.com/site/yourwebsitepersonalized/tunnel-rush",
     tags: ["Speed", "Reflexes", "3D"],
   },
   {
@@ -133,7 +133,7 @@ export const games: Game[] = [
     description: "Jump and fly through obstacles in rhythm",
     category: "Action",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/geometry-dash/",
+    embedUrl: "https://geometrylite.io/",
     tags: ["Rhythm", "Platformer", "Hard"],
   },
   {
@@ -142,7 +142,7 @@ export const games: Game[] = [
     description: "Run and jump through space tunnels",
     category: "Action",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg98.github.io/run-3/",
+    embedUrl: "https://run3.io/",
     tags: ["Running", "Space", "Endless"],
   },
   {
@@ -151,7 +151,7 @@ export const games: Game[] = [
     description: "Navigate through endless cube obstacles",
     category: "Action",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg77.github.io/edit/cube-field/",
+    embedUrl: "https://www.crazygames.com/embed/cubefield",
     tags: ["Endless", "Speed", "Simple"],
   },
   {
@@ -160,7 +160,7 @@ export const games: Game[] = [
     description: "Extreme platformer with challenging obstacles",
     category: "Action",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/vex-5/",
+    embedUrl: "https://www.crazygames.com/embed/vex-5",
     tags: ["Platformer", "Hard", "Parkour"],
   },
   {
@@ -169,7 +169,7 @@ export const games: Game[] = [
     description: "Continue the parkour adventure with new levels",
     category: "Action",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/vex-6/",
+    embedUrl: "https://www.crazygames.com/embed/vex-6",
     tags: ["Platformer", "Hard", "Parkour"],
   },
   {
@@ -178,7 +178,7 @@ export const games: Game[] = [
     description: "Jump between moving trucks at high speed",
     category: "Action",
     thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/cluster-rush/",
+    embedUrl: "https://www.crazygames.com/embed/cluster-rush",
     tags: ["Parkour", "Speed", "Crazy"],
   },
   {
@@ -187,8 +187,17 @@ export const games: Game[] = [
     description: "Navigate through a colorful spinning tunnel",
     category: "Action",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg98.github.io/color-tunnel/",
+    embedUrl: "https://www.crazygames.com/embed/color-tunnel",
     tags: ["Endless", "Colors", "Speed"],
+  },
+  {
+    id: "retro-bowl",
+    title: "Retro Bowl",
+    description: "Retro-style American football management game",
+    category: "Action",
+    thumbnail: basketballImg,
+    embedUrl: "https://www.crazygames.com/embed/retro-bowl",
+    tags: ["Sports", "Retro", "Football"],
   },
   
   // PUZZLE GAMES
@@ -198,7 +207,7 @@ export const games: Game[] = [
     description: "Classic number puzzle - fill the grid",
     category: "Puzzle",
     thumbnail: sudokuImg,
-    embedUrl: "https://sudoku.game/",
+    embedUrl: "https://www.crazygames.com/embed/daily-sudoku",
     tags: ["Numbers", "Logic", "Classic"],
   },
   {
@@ -207,7 +216,7 @@ export const games: Game[] = [
     description: "Find all mines without clicking on them",
     category: "Puzzle",
     thumbnail: minesweeperImg,
-    embedUrl: "https://minesweeper.online/",
+    embedUrl: "https://minesweeper.github.io/",
     tags: ["Classic", "Logic", "Strategy"],
   },
   {
@@ -216,7 +225,7 @@ export const games: Game[] = [
     description: "Play chess against computer or friends",
     category: "Strategy",
     thumbnail: chessImg,
-    embedUrl: "https://www.chess.com/play/computer",
+    embedUrl: "https://www.crazygames.com/embed/chess-classic",
     tags: ["Strategy", "Classic", "Brain"],
   },
   {
@@ -225,7 +234,7 @@ export const games: Game[] = [
     description: "Classic checkers board game",
     category: "Strategy",
     thumbnail: checkersImg,
-    embedUrl: "https://cardgames.io/checkers/",
+    embedUrl: "https://www.crazygames.com/embed/checkers-legend",
     tags: ["Board", "Classic", "Strategy"],
   },
   {
@@ -234,7 +243,7 @@ export const games: Game[] = [
     description: "Match colorful candies to clear the board",
     category: "Puzzle",
     thumbnail: match3Img,
-    embedUrl: "https://ubg77.github.io/edit/candy-match-3/",
+    embedUrl: "https://www.crazygames.com/embed/candy-match-saga",
     tags: ["Match-3", "Colorful", "Casual"],
   },
   {
@@ -243,7 +252,7 @@ export const games: Game[] = [
     description: "Match pairs of tiles to clear the board",
     category: "Puzzle",
     thumbnail: memoryImg,
-    embedUrl: "https://mahjong.com/",
+    embedUrl: "https://www.crazygames.com/embed/mahjong-classic",
     tags: ["Matching", "Classic", "Relaxing"],
   },
   {
@@ -252,7 +261,7 @@ export const games: Game[] = [
     description: "Assemble beautiful picture puzzles",
     category: "Puzzle",
     thumbnail: memoryImg,
-    embedUrl: "https://www.jigsawplanet.com/",
+    embedUrl: "https://www.crazygames.com/embed/jigsaw-puzzle-deluxe",
     tags: ["Relaxing", "Pictures", "Classic"],
   },
   {
@@ -261,7 +270,7 @@ export const games: Game[] = [
     description: "Guess the 5-letter word in 6 tries",
     category: "Puzzle",
     thumbnail: wordsImg,
-    embedUrl: "https://wordleunlimited.org/",
+    embedUrl: "https://www.crazygames.com/embed/wordle-dos",
     tags: ["Words", "Daily", "Logic"],
   },
   {
@@ -270,8 +279,17 @@ export const games: Game[] = [
     description: "Solve crossword puzzles",
     category: "Puzzle",
     thumbnail: wordsImg,
-    embedUrl: "https://www.boatloadpuzzles.com/playcrossword",
+    embedUrl: "https://www.crazygames.com/embed/penny-dell-daily-crossword",
     tags: ["Words", "Classic", "Brain"],
+  },
+  {
+    id: "bubble-shooter",
+    title: "Bubble Shooter",
+    description: "Pop bubbles by matching colors",
+    category: "Puzzle",
+    thumbnail: match3Img,
+    embedUrl: "https://www.crazygames.com/embed/bubble-shooter-pro",
+    tags: ["Casual", "Colors", "Relaxing"],
   },
   
   // ARCADE GAMES
@@ -308,7 +326,7 @@ export const games: Game[] = [
     description: "Classic two-player paddle game",
     category: "Arcade",
     thumbnail: pongImg,
-    embedUrl: "https://www.ponggame.org/",
+    embedUrl: "https://www.crazygames.com/embed/pong-2",
     tags: ["Classic", "Retro", "2-Player"],
   },
   {
@@ -326,7 +344,7 @@ export const games: Game[] = [
     description: "Aim and throw darts at the target",
     category: "Sports",
     thumbnail: dartsImg,
-    embedUrl: "https://www.crazygames.com/embed/darts-pro",
+    embedUrl: "https://www.crazygames.com/embed/darts-pro-multiplayer",
     tags: ["Sports", "Aim", "Casual"],
   },
   {
@@ -335,7 +353,7 @@ export const games: Game[] = [
     description: "Slice fruits and avoid bombs",
     category: "Arcade",
     thumbnail: match3Img,
-    embedUrl: "https://ubg77.github.io/edit/fruit-ninja/",
+    embedUrl: "https://www.crazygames.com/embed/fruit-ninja-game",
     tags: ["Slicing", "Casual", "Fun"],
   },
   {
@@ -355,7 +373,7 @@ export const games: Game[] = [
     description: "Extreme motorcycle racing with stunts",
     category: "Racing",
     thumbnail: motorcycleImg,
-    embedUrl: "https://ubg77.github.io/edit/moto-x3m/",
+    embedUrl: "https://www.crazygames.com/embed/moto-x3m",
     tags: ["Motorcycle", "Stunts", "Racing"],
   },
   {
@@ -364,7 +382,7 @@ export const games: Game[] = [
     description: "More extreme motorcycle levels",
     category: "Racing",
     thumbnail: motorcycleImg,
-    embedUrl: "https://ubg77.github.io/edit/moto-x3m-2/",
+    embedUrl: "https://www.crazygames.com/embed/moto-x3m-2",
     tags: ["Motorcycle", "Stunts", "Racing"],
   },
   {
@@ -373,7 +391,7 @@ export const games: Game[] = [
     description: "Continue the motorcycle madness",
     category: "Racing",
     thumbnail: motorcycleImg,
-    embedUrl: "https://ubg77.github.io/edit/moto-x3m-3/",
+    embedUrl: "https://www.crazygames.com/embed/moto-x3m-3",
     tags: ["Motorcycle", "Stunts", "Racing"],
   },
   {
@@ -382,7 +400,7 @@ export const games: Game[] = [
     description: "Motorcycle racing on icy tracks",
     category: "Racing",
     thumbnail: motorcycleImg,
-    embedUrl: "https://ubg77.github.io/edit/moto-x3m-winter/",
+    embedUrl: "https://www.crazygames.com/embed/moto-x3m-winter",
     tags: ["Motorcycle", "Winter", "Racing"],
   },
   {
@@ -391,7 +409,7 @@ export const games: Game[] = [
     description: "Master the art of drifting",
     category: "Racing",
     thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/drift-hunters/",
+    embedUrl: "https://www.crazygames.com/embed/drift-hunters",
     tags: ["Drifting", "Cars", "3D"],
   },
   {
@@ -400,7 +418,7 @@ export const games: Game[] = [
     description: "High-speed highway racing",
     category: "Racing",
     thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/racing-limits/",
+    embedUrl: "https://www.crazygames.com/embed/traffic-racer",
     tags: ["Highway", "Speed", "Cars"],
   },
   {
@@ -409,7 +427,7 @@ export const games: Game[] = [
     description: "Race through deadly obstacle tunnels",
     category: "Racing",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg77.github.io/edit/death-run-3d/",
+    embedUrl: "https://www.crazygames.com/embed/death-run-3d",
     tags: ["3D", "Speed", "Obstacles"],
   },
   {
@@ -418,7 +436,7 @@ export const games: Game[] = [
     description: "Ragdoll physics racing with gore",
     category: "Racing",
     thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/happy-wheels/",
+    embedUrl: "https://www.crazygames.com/embed/happy-wheels",
     tags: ["Physics", "Funny", "Gore"],
   },
   {
@@ -427,8 +445,17 @@ export const games: Game[] = [
     description: "Balance on one wheel as long as possible",
     category: "Racing",
     thumbnail: motorcycleImg,
-    embedUrl: "https://ubg77.github.io/edit/wheelie-bike/",
+    embedUrl: "https://www.crazygames.com/embed/wheelie-bike",
     tags: ["Balance", "Casual", "Fun"],
+  },
+  {
+    id: "drive-mad",
+    title: "Drive Mad",
+    description: "Physics-based car driving challenges",
+    category: "Racing",
+    thumbnail: racingImg,
+    embedUrl: "https://www.crazygames.com/embed/drive-mad",
+    tags: ["Physics", "Cars", "Challenging"],
   },
   
   // SHOOTER GAMES
@@ -474,7 +501,7 @@ export const games: Game[] = [
     description: "Modern military FPS",
     category: "Shooter",
     thumbnail: zombieImg,
-    embedUrl: "https://ubg77.github.io/edit/bullet-force/",
+    embedUrl: "https://www.crazygames.com/embed/bullet-force-multiplayer",
     tags: ["FPS", "Military", "Multiplayer"],
   },
   {
@@ -513,6 +540,15 @@ export const games: Game[] = [
     embedUrl: "https://narrow.one/",
     tags: ["Archery", "Multiplayer", "Medieval"],
   },
+  {
+    id: "buildnow-gg",
+    title: "BuildNow GG",
+    description: "Build and battle multiplayer",
+    category: "Shooter",
+    thumbnail: zombieImg,
+    embedUrl: "https://buildnow.gg/",
+    tags: ["Building", "Shooter", "Multiplayer"],
+  },
   
   // SPORTS GAMES
   {
@@ -521,7 +557,7 @@ export const games: Game[] = [
     description: "1v1 basketball showdown",
     category: "Sports",
     thumbnail: basketballImg,
-    embedUrl: "https://ubg77.github.io/edit/basketball-stars/",
+    embedUrl: "https://www.crazygames.com/embed/basketball-stars",
     tags: ["Basketball", "1v1", "Sports"],
   },
   {
@@ -530,7 +566,7 @@ export const games: Game[] = [
     description: "Classic billiards game",
     category: "Sports",
     thumbnail: poolImg,
-    embedUrl: "https://ubg77.github.io/edit/8-ball-pool/",
+    embedUrl: "https://www.crazygames.com/embed/8-ball-billiards-classic",
     tags: ["Pool", "Classic", "Multiplayer"],
   },
   {
@@ -539,7 +575,7 @@ export const games: Game[] = [
     description: "Multiplayer mini golf",
     category: "Sports",
     thumbnail: golfImg,
-    embedUrl: "https://ubg77.github.io/edit/golf-battle/",
+    embedUrl: "https://www.crazygames.com/embed/mini-golf-master",
     tags: ["Golf", "Mini Golf", "Casual"],
   },
   {
@@ -548,7 +584,7 @@ export const games: Game[] = [
     description: "Score penalty kicks",
     category: "Sports",
     thumbnail: soccerImg,
-    embedUrl: "https://ubg77.github.io/edit/penalty-kick-online/",
+    embedUrl: "https://www.crazygames.com/embed/penalty-shooters-2",
     tags: ["Soccer", "Penalty", "Sports"],
   },
   {
@@ -557,7 +593,7 @@ export const games: Game[] = [
     description: "Play soccer matches",
     category: "Sports",
     thumbnail: soccerImg,
-    embedUrl: "https://ubg77.github.io/edit/soccer-skills-world-cup/",
+    embedUrl: "https://www.crazygames.com/embed/soccer-skills-world-cup",
     tags: ["Soccer", "World Cup", "Sports"],
   },
   {
@@ -566,7 +602,7 @@ export const games: Game[] = [
     description: "Ping pong simulation",
     category: "Sports",
     thumbnail: pongImg,
-    embedUrl: "https://ubg77.github.io/edit/table-tennis-world-tour/",
+    embedUrl: "https://www.crazygames.com/embed/table-tennis-world-tour",
     tags: ["Tennis", "Sports", "Casual"],
   },
   {
@@ -577,6 +613,15 @@ export const games: Game[] = [
     thumbnail: poolImg,
     embedUrl: "https://www.crazygames.com/embed/bowling-games",
     tags: ["Bowling", "Sports", "Casual"],
+  },
+  {
+    id: "badminton",
+    title: "Badminton",
+    description: "Fast-paced badminton match",
+    category: "Sports",
+    thumbnail: soccerImg,
+    embedUrl: "https://www.crazygames.com/embed/badminton-clash",
+    tags: ["Sports", "Racket", "Casual"],
   },
   
   // IO GAMES
@@ -670,6 +715,15 @@ export const games: Game[] = [
     embedUrl: "https://mope.io/",
     tags: ["IO", "Survival", "Evolution"],
   },
+  {
+    id: "littlebigsnake-io",
+    title: "Little Big Snake",
+    description: "Grow your snake and dominate",
+    category: "IO Games",
+    thumbnail: snakeImg,
+    embedUrl: "https://littlebigsnake.com/",
+    tags: ["IO", "Snake", "Multiplayer"],
+  },
   
   // STRATEGY GAMES
   {
@@ -678,7 +732,7 @@ export const games: Game[] = [
     description: "Pop bloons with monkey towers",
     category: "Strategy",
     thumbnail: towerDefenseImg,
-    embedUrl: "https://ubg77.github.io/edit/bloons-tower-defense/",
+    embedUrl: "https://www.crazygames.com/embed/bloons-td",
     tags: ["Tower Defense", "Strategy", "Fun"],
   },
   {
@@ -687,7 +741,7 @@ export const games: Game[] = [
     description: "Enhanced tower defense with more upgrades",
     category: "Strategy",
     thumbnail: towerDefenseImg,
-    embedUrl: "https://ubg77.github.io/edit/bloons-tower-defense-5/",
+    embedUrl: "https://www.crazygames.com/embed/bloons-td-5",
     tags: ["Tower Defense", "Strategy", "Fun"],
   },
   {
@@ -696,7 +750,7 @@ export const games: Game[] = [
     description: "Epic fantasy tower defense",
     category: "Strategy",
     thumbnail: towerDefenseImg,
-    embedUrl: "https://ubg77.github.io/edit/kingdom-rush/",
+    embedUrl: "https://www.crazygames.com/embed/kingdom-rush",
     tags: ["Tower Defense", "Fantasy", "Strategy"],
   },
   {
@@ -705,7 +759,7 @@ export const games: Game[] = [
     description: "Evolve through ages and defeat enemies",
     category: "Strategy",
     thumbnail: tanksImg,
-    embedUrl: "https://ubg77.github.io/edit/age-of-war/",
+    embedUrl: "https://www.crazygames.com/embed/age-of-war",
     tags: ["Strategy", "War", "Evolution"],
   },
   {
@@ -714,7 +768,7 @@ export const games: Game[] = [
     description: "Enhanced warfare strategy",
     category: "Strategy",
     thumbnail: tanksImg,
-    embedUrl: "https://ubg77.github.io/edit/age-of-war-2/",
+    embedUrl: "https://www.crazygames.com/embed/age-of-war-2",
     tags: ["Strategy", "War", "Evolution"],
   },
   {
@@ -723,7 +777,7 @@ export const games: Game[] = [
     description: "Command stick figure armies",
     category: "Strategy",
     thumbnail: towerDefenseImg,
-    embedUrl: "https://ubg77.github.io/edit/stick-war/",
+    embedUrl: "https://www.crazygames.com/embed/stick-war",
     tags: ["Strategy", "Army", "Stickman"],
   },
   {
@@ -732,8 +786,17 @@ export const games: Game[] = [
     description: "Epic stickman warfare",
     category: "Strategy",
     thumbnail: towerDefenseImg,
-    embedUrl: "https://ubg77.github.io/edit/stick-war-legacy/",
+    embedUrl: "https://www.crazygames.com/embed/stick-war-legacy",
     tags: ["Strategy", "Army", "Stickman"],
+  },
+  {
+    id: "incremancer",
+    title: "Incremancer",
+    description: "Incremental zombie army strategy",
+    category: "Strategy",
+    thumbnail: zombieImg,
+    embedUrl: "https://www.crazygames.com/embed/incremancer",
+    tags: ["Strategy", "Idle", "Zombie"],
   },
   
   // ADVENTURE GAMES
@@ -743,7 +806,7 @@ export const games: Game[] = [
     description: "Co-op puzzle platformer",
     category: "Adventure",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/fireboy-and-watergirl/",
+    embedUrl: "https://www.crazygames.com/embed/fireboy-and-watergirl-forest-temple",
     tags: ["Co-op", "Puzzle", "2-Player"],
   },
   {
@@ -752,7 +815,7 @@ export const games: Game[] = [
     description: "Light Temple adventure",
     category: "Adventure",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/fireboy-and-watergirl-2/",
+    embedUrl: "https://www.crazygames.com/embed/fireboy-and-watergirl-2-the-light-temple",
     tags: ["Co-op", "Puzzle", "2-Player"],
   },
   {
@@ -761,7 +824,7 @@ export const games: Game[] = [
     description: "Ice Temple challenge",
     category: "Adventure",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/fireboy-and-watergirl-3/",
+    embedUrl: "https://www.crazygames.com/embed/fireboy-and-watergirl-3-the-ice-temple",
     tags: ["Co-op", "Puzzle", "2-Player"],
   },
   {
@@ -770,35 +833,8 @@ export const games: Game[] = [
     description: "Crystal Temple expedition",
     category: "Adventure",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/fireboy-and-watergirl-4/",
+    embedUrl: "https://www.crazygames.com/embed/fireboy-and-watergirl-4-the-crystal-temple",
     tags: ["Co-op", "Puzzle", "2-Player"],
-  },
-  {
-    id: "minecraft-classic",
-    title: "Minecraft Classic",
-    description: "Original Minecraft in browser",
-    category: "Adventure",
-    thumbnail: platformerImg,
-    embedUrl: "https://classic.minecraft.net/",
-    tags: ["Sandbox", "Building", "Classic"],
-  },
-  {
-    id: "super-mario-bros",
-    title: "Super Mario Bros",
-    description: "Classic Mario platformer",
-    category: "Adventure",
-    thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/super-mario-bros/",
-    tags: ["Platformer", "Classic", "Nintendo"],
-  },
-  {
-    id: "sonic",
-    title: "Sonic the Hedgehog",
-    description: "Classic Sonic speed adventure",
-    category: "Adventure",
-    thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/sonic-the-hedgehog/",
-    tags: ["Platformer", "Classic", "Speed"],
   },
   {
     id: "tomb-runner",
@@ -806,8 +842,35 @@ export const games: Game[] = [
     description: "Endless temple running adventure",
     category: "Adventure",
     thumbnail: platformerImg,
-    embedUrl: "https://ubg77.github.io/edit/tomb-runner/",
+    embedUrl: "https://www.crazygames.com/embed/tomb-runner",
     tags: ["Endless", "Running", "Adventure"],
+  },
+  {
+    id: "bob-robber",
+    title: "Bob the Robber",
+    description: "Stealth puzzle adventure",
+    category: "Adventure",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/bob-the-robber",
+    tags: ["Stealth", "Puzzle", "Adventure"],
+  },
+  {
+    id: "bob-robber-2",
+    title: "Bob the Robber 2",
+    description: "More heist puzzles",
+    category: "Adventure",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/bob-the-robber-2",
+    tags: ["Stealth", "Puzzle", "Adventure"],
+  },
+  {
+    id: "short-life",
+    title: "Short Life",
+    description: "Survive deadly obstacle courses",
+    category: "Adventure",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/short-life",
+    tags: ["Physics", "Challenge", "Adventure"],
   },
   
   // MORE ARCADE GAMES
@@ -856,6 +919,15 @@ export const games: Game[] = [
     embedUrl: "https://duckhuntjs.com/",
     tags: ["Classic", "Shooter", "Retro"],
   },
+  {
+    id: "dino-game",
+    title: "Chrome Dino",
+    description: "Classic Chrome dinosaur runner",
+    category: "Arcade",
+    thumbnail: platformerImg,
+    embedUrl: "https://chromedino.com/",
+    tags: ["Endless", "Classic", "Runner"],
+  },
   
   // MORE PUZZLE
   {
@@ -864,7 +936,7 @@ export const games: Game[] = [
     description: "Push boxes to solve puzzles",
     category: "Puzzle",
     thumbnail: minesweeperImg,
-    embedUrl: "https://sokoban.info/play/",
+    embedUrl: "https://www.crazygames.com/embed/sokoban",
     tags: ["Classic", "Logic", "Brain"],
   },
   {
@@ -882,17 +954,17 @@ export const games: Game[] = [
     description: "Picture logic puzzles",
     category: "Puzzle",
     thumbnail: sudokuImg,
-    embedUrl: "https://www.puzzle-nonograms.com/",
+    embedUrl: "https://www.crazygames.com/embed/nonogram-picture-cross-puzzle",
     tags: ["Logic", "Pictures", "Brain"],
   },
   {
-    id: "lights-out",
-    title: "Lights Out",
-    description: "Turn off all the lights",
+    id: "cut-rope",
+    title: "Cut the Rope",
+    description: "Cut ropes to feed candy to Om Nom",
     category: "Puzzle",
-    thumbnail: minesweeperImg,
-    embedUrl: "https://www.logicgamesonline.com/lightsout/",
-    tags: ["Logic", "Classic", "Brain"],
+    thumbnail: match3Img,
+    embedUrl: "https://www.crazygames.com/embed/cut-the-rope",
+    tags: ["Physics", "Cute", "Logic"],
   },
   
   // MORE MISC
@@ -911,7 +983,7 @@ export const games: Game[] = [
     description: "Tank battle in maze",
     category: "Shooter",
     thumbnail: tanksImg,
-    embedUrl: "https://ubg77.github.io/edit/tank-trouble/",
+    embedUrl: "https://www.crazygames.com/embed/tank-trouble",
     tags: ["Tanks", "2-Player", "Multiplayer"],
   },
   {
@@ -920,7 +992,7 @@ export const games: Game[] = [
     description: "Wacky physics racing shooter",
     category: "Action",
     thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/getaway-shootout/",
+    embedUrl: "https://www.crazygames.com/embed/getaway-shootout",
     tags: ["Physics", "Funny", "2-Player"],
   },
   {
@@ -929,7 +1001,7 @@ export const games: Game[] = [
     description: "Physics-based sniper duel",
     category: "Shooter",
     thumbnail: zombieImg,
-    embedUrl: "https://ubg77.github.io/edit/rooftop-snipers/",
+    embedUrl: "https://www.crazygames.com/embed/rooftop-snipers",
     tags: ["Physics", "Funny", "2-Player"],
   },
   {
@@ -938,7 +1010,7 @@ export const games: Game[] = [
     description: "Wacky 2-player basketball",
     category: "Sports",
     thumbnail: basketballImg,
-    embedUrl: "https://ubg77.github.io/edit/basket-random/",
+    embedUrl: "https://www.crazygames.com/embed/basket-random",
     tags: ["Basketball", "Funny", "2-Player"],
   },
   {
@@ -947,7 +1019,7 @@ export const games: Game[] = [
     description: "Crazy 2-player soccer",
     category: "Sports",
     thumbnail: soccerImg,
-    embedUrl: "https://ubg77.github.io/edit/soccer-random/",
+    embedUrl: "https://www.crazygames.com/embed/soccer-random",
     tags: ["Soccer", "Funny", "2-Player"],
   },
   {
@@ -956,7 +1028,7 @@ export const games: Game[] = [
     description: "Random physics boxing",
     category: "Sports",
     thumbnail: basketballImg,
-    embedUrl: "https://ubg77.github.io/edit/boxing-random/",
+    embedUrl: "https://www.crazygames.com/embed/boxing-random",
     tags: ["Boxing", "Funny", "2-Player"],
   },
   {
@@ -965,17 +1037,17 @@ export const games: Game[] = [
     description: "Wacky volleyball game",
     category: "Sports",
     thumbnail: soccerImg,
-    embedUrl: "https://ubg77.github.io/edit/volley-random/",
+    embedUrl: "https://www.crazygames.com/embed/volley-random",
     tags: ["Volleyball", "Funny", "2-Player"],
   },
   {
-    id: "racing-game",
-    title: "Racing Game",
-    description: "High-speed racing action",
-    category: "Racing",
-    thumbnail: racingImg,
-    embedUrl: "https://ubg77.github.io/edit/racing-game/",
-    tags: ["Racing", "Speed", "Cars"],
+    id: "stickman-hook",
+    title: "Stickman Hook",
+    description: "Swing through levels with physics",
+    category: "Action",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/stickman-hook",
+    tags: ["Physics", "Swinging", "Fun"],
   },
   {
     id: "snow-rider-3d",
@@ -983,7 +1055,61 @@ export const games: Game[] = [
     description: "Sledding down snowy mountains",
     category: "Action",
     thumbnail: slopeImg,
-    embedUrl: "https://ubg77.github.io/edit/snow-rider-3d/",
+    embedUrl: "https://www.crazygames.com/embed/snow-rider-3d",
     tags: ["Winter", "3D", "Speed"],
+  },
+  {
+    id: "eggy-car",
+    title: "Eggy Car",
+    description: "Balance an egg while driving",
+    category: "Racing",
+    thumbnail: racingImg,
+    embedUrl: "https://www.crazygames.com/embed/eggy-car",
+    tags: ["Physics", "Casual", "Funny"],
+  },
+  {
+    id: "monkey-mart",
+    title: "Monkey Mart",
+    description: "Run a supermarket as a monkey",
+    category: "Arcade",
+    thumbnail: match3Img,
+    embedUrl: "https://www.crazygames.com/embed/monkey-mart",
+    tags: ["Idle", "Management", "Cute"],
+  },
+  {
+    id: "geometry-dash-lite",
+    title: "Geometry Dash Lite",
+    description: "Rhythm-based platformer",
+    category: "Action",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/geometry-dash",
+    tags: ["Rhythm", "Hard", "Platformer"],
+  },
+  {
+    id: "subway-surfers",
+    title: "Subway Surfers",
+    description: "Endless running through subway",
+    category: "Action",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/subway-surfers",
+    tags: ["Endless", "Running", "Popular"],
+  },
+  {
+    id: "temple-run-2",
+    title: "Temple Run 2",
+    description: "Endless temple escape runner",
+    category: "Action",
+    thumbnail: platformerImg,
+    embedUrl: "https://www.crazygames.com/embed/temple-run-2",
+    tags: ["Endless", "Running", "Adventure"],
+  },
+  {
+    id: "crossy-road",
+    title: "Crossy Road",
+    description: "Cross roads avoiding traffic",
+    category: "Arcade",
+    thumbnail: flappyImg,
+    embedUrl: "https://www.crazygames.com/embed/crossy-road",
+    tags: ["Casual", "Endless", "Cute"],
   },
 ];
