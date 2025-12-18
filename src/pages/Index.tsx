@@ -6,7 +6,7 @@ import { CategoryFilter } from "@/components/CategoryFilter";
 import { GameCard } from "@/components/GameCard";
 import { GameModal } from "@/components/GameModal";
 import { FeaturedGames } from "@/components/FeaturedGames";
-import { Gamepad2 } from "lucide-react";
+import { Gamepad2, Zap, Shield, Monitor } from "lucide-react";
 
 const Index = () => {
   const [search, setSearch] = useState("");
@@ -52,9 +52,25 @@ const Index = () => {
               <span className="text-foreground">No Interruptions.</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Your personal gaming hub with {games.length}+ browser games. 
+              Your personal gaming hub with <span className="text-primary font-semibold">{games.length}</span> browser games. 
               No ads, no downloads, just pure gaming.
             </p>
+          </div>
+
+          {/* Features */}
+          <div className="flex flex-wrap justify-center gap-6 mb-10">
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Zap className="w-4 h-4 text-primary" />
+              <span>Instant Play</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Shield className="w-4 h-4 text-primary" />
+              <span>No Ads Ever</span>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Monitor className="w-4 h-4 text-primary" />
+              <span>PC Optimized</span>
+            </div>
           </div>
 
           {/* Search and filters */}
