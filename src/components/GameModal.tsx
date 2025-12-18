@@ -1,6 +1,23 @@
 import { X, Maximize2, Minimize2, ExternalLink } from "lucide-react";
 import { Game } from "@/data/games";
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
+
+// Lazy load custom games
+const SnakeGame = lazy(() => import('@/games/SnakeGame').then(m => ({ default: m.SnakeGame })));
+const PongGame = lazy(() => import('@/games/PongGame').then(m => ({ default: m.PongGame })));
+const BreakoutGame = lazy(() => import('@/games/BreakoutGame').then(m => ({ default: m.BreakoutGame })));
+const MemoryGame = lazy(() => import('@/games/MemoryGame').then(m => ({ default: m.MemoryGame })));
+const TicTacToe = lazy(() => import('@/games/TicTacToe').then(m => ({ default: m.TicTacToe })));
+const FlappyGame = lazy(() => import('@/games/FlappyGame').then(m => ({ default: m.FlappyGame })));
+
+const CUSTOM_GAMES: Record<string, React.LazyExoticComponent<React.ComponentType>> = {
+  'custom-snake': SnakeGame,
+  'custom-pong': PongGame,
+  'custom-breakout': BreakoutGame,
+  'custom-memory': MemoryGame,
+  'custom-tictactoe': TicTacToe,
+  'custom-flappy': FlappyGame,
+};
 
 interface GameModalProps {
   game: Game | null;
@@ -21,6 +38,10 @@ export const GameModal = ({ game, onClose }: GameModalProps) => {
       setIsFullscreen(false);
     }
   };
+
+  const isCustomGame = game.embedUrl.startsWith('custom://');
+  const customGameId = isCustomGame ? game.embedUrl.replace('custom://', '') : null;
+  const CustomGameComponent = customGameId ? CUSTOM_GAMES[customGameId] : null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
@@ -44,15 +65,17 @@ export const GameModal = ({ game, onClose }: GameModalProps) => {
           </div>
           
           <div className="flex items-center gap-2">
-            <a
-              href={game.embedUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-lg bg-muted hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-colors"
-              title="Open in new tab"
-            >
-              <ExternalLink className="w-5 h-5" />
-            </a>
+            {!isCustomGame && (
+              <a
+                href={game.embedUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg bg-muted hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-colors"
+                title="Open in new tab"
+              >
+                <ExternalLink className="w-5 h-5" />
+              </a>
+            )}
             <button
               onClick={toggleFullscreen}
               className="p-2 rounded-lg bg-muted hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-colors"
@@ -74,15 +97,25 @@ export const GameModal = ({ game, onClose }: GameModalProps) => {
           </div>
         </div>
 
-        {/* Game iframe */}
+        {/* Game content */}
         <div className="flex-1 bg-background rounded-b-xl overflow-hidden border border-border border-t-0">
-          <iframe
-            src={game.embedUrl}
-            className="w-full h-full"
-            allow="fullscreen; autoplay; clipboard-write"
-            sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock"
-            title={game.title}
-          />
+          {isCustomGame && CustomGameComponent ? (
+            <Suspense fallback={
+              <div className="w-full h-full flex items-center justify-center bg-gray-900">
+                <div className="text-white text-xl">Loading game...</div>
+              </div>
+            }>
+              <CustomGameComponent />
+            </Suspense>
+          ) : (
+            <iframe
+              src={game.embedUrl}
+              className="w-full h-full"
+              allow="fullscreen; autoplay; clipboard-write"
+              sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock"
+              title={game.title}
+            />
+          )}
         </div>
       </div>
     </div>
